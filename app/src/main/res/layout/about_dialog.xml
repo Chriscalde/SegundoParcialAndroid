@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Christian"
+        android:background="@drawable/field"
+        android:layout_margin="10dp"
+        android:height="30dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/textLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calderón"
+        android:background="@drawable/field"
+        android:layout_margin="10dp"
+        android:height="30dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4501"
+        android:background="@drawable/field"
+        android:layout_margin="10dp"
+        android:height="30dp"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Close"
+            android:background="@drawable/gradient_button"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnGit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GitHub"
+            android:background="@drawable/gradient_button"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

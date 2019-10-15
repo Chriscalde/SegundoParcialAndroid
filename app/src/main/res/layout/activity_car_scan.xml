@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarScan">
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_button"
+        android:text="Go Back"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="413dp">
+
+        <ImageView
+            android:id="@+id/imgCar"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            app:srcCompat="@drawable/speedy" />
+
+        <TextView
+            android:id="@+id/txtBrand"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/field"
+            android:padding="10dp"
+            android:text="Brand"
+            android:textColor="@color/colorTextFields"/>
+
+        <TextView
+            android:id="@+id/txtModel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/field"
+            android:text="Model"
+            android:textColor="@color/colorTextFields"/>
+
+        <TextView
+            android:id="@+id/txtYear"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/field"
+            android:text="Year"
+            android:textColor="@color/colorTextFields"/>
+
+        <TextView
+            android:id="@+id/txtDebt"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/field"
+            android:text="Debt"
+            android:textColor="@color/colorTextFields"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnScan"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Scan QR"
+                android:background="@drawable/gradient_button"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

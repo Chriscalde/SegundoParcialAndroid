@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SegundoParcial</string>
+    <string name="login_text">User or Password Incorrect, try again!</string>
+</resources>
